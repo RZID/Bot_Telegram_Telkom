@@ -1,0 +1,59 @@
+.telkom1{
+    background-size: cover !important;
+    background-position: center;
+    background-repeat: no-repeat !important;
+    background:
+        /* top, transparent black, faked with gradient */ 
+        linear-gradient(
+          rgba(0, 0, 0, 0.7), 
+          rgba(0, 0, 0, 0.7)
+        ),
+        /* bottom, image */
+        url("https://www.duniailkom.com/wp-content/uploads/2018/02/kantor-pusat-telkom-indonesia.jpg");
+}
+.no-overflow-y{
+    overflow-y: hidden !important;
+}
+.no-overflow-x{
+    overflow-x: hidden !important;
+}
+.no-overflow{
+    overflow: hidden !important;
+}
+.form-label{
+    text-decoration: underline;
+}
+
+.form-trans-white{
+    color: #ffffff !important;
+    background-color: rgba(255, 255, 255, 0.500) !important;
+    outline: none !important;
+    border: none !important;
+}
+.form-trans-white:focus{
+    color: #000000 !important;
+    background-color: rgba(255, 255, 255, 0.800) !important;
+    outline: none !important;
+    border: none !important;
+}
+.btn-lgn{
+    background-color: rgba(255, 255, 255, 0.500) !important;
+    outline: none !important;
+    border: none !important;
+}
+.dialog-login{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.hero-login{
+    background-color: #53000093;
+}
+
+@media only screen and (max-width: 1024px){
+    .is-7{
+        display: none;
+    }
+}
